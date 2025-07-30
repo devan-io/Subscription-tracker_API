@@ -1,9 +1,9 @@
 import express from 'express';
-import {PORT} from './Subscription-tracker_API/config/env.js';
-import userRouter from './Subscription-tracker_API/routes/user.routes.js';
-import authRouter from './Subscription-tracker_API/routes/auth.routes.js';
-import subscriptionRouter from './Subscription-tracker_API/routes/subscription.routes.js';
-import connectToDatabase from './Subscription-tracker_API/database/mongodb.js';
+import {PORT} from './config/env.js';
+import userRouter from './routes/user.routes.js';
+import authRouter from './routes/auth.routes.js';
+import subscriptionRouter from './routes/subscription.routes.js';
+import connectToDatabase from './database/mongodb.js';
 
 const app = express();
 
