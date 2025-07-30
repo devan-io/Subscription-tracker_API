@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { DB_URI, NODE_ENV } from '../config/env.js';
+import { DB_URI, NODE_ENV } from '../Subscription-tracker_API/config/env.js';
 
 if(!DB_URI) {
 	throw new Error('Please provide a valid DB_URI  under the .env.development/production.local');
